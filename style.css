@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+body{
+    background: no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+.fs6{
+    font-size:120px!important;
+}
+#time{
+    border-bottom:5px solid white;
+}
+#date{
+    font-size: 30px !important;
+}
+#city{
+    margin-top: -1em;
+    font-size: .75em;
+}
+#temperature{
+    font-size: 2rem;
+}
+#wheater-icon{
+    margin-right: -.8em;
+}

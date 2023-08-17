@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div
+        class="row container-fluid py-2 d-flex justify-content-between text-white"
+      >
+        <div
+          class="col d-flex flex-column me-auto align-items-start justify-content-center gap-2"
+          style="flex: 1"
+          id="Crypto-descrip"
+        >
+          Crypto is here
+        </div>
+        <div class="col" style="flex: 0">
+          <div class="d-flex justify-content-end align-items-center ">
+            <img
+              src=""
+              alt="wheather"
+              id="wheater-icon"
+              width="85px"
+              class="ms-3"
+            />
+            <span  id="temperature">75c</span>
+          </div>
+          <div class="d-flex justify-content-end">
+            <small id="city" class="me-2">Marrakech</small>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="text-white" style="height: 55vh">
+      <div class="d-flex justify-content-center align-items-center h-75 w-100">
+        <div class="row">
+          <div class="col">
+            <span class="fs6 text-uppercase w-100" id="time">time here</span>
+            <p id="date" class="text-center">date</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-white container-fluid fixed-bottom">
+      <div class="row">
+        <div class="col">
+          <p id="author"></p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
